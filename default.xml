@@ -5,5 +5,9 @@
           revision="master" />
 
     <!-- Operating System -->
-    <project name="boot" path="boot" remote="origin"/>    
+    <project name="root" path="root" remote="origin"/>
+    <project name="boot" path="boot" remote="origin"/>
+    <project name="tools" path="tools" remote="origin">
+        <copyfile src="Makefile" dest="Makefile" />
+    </project>
 </manifest>
