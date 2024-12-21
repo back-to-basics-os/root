@@ -3,4 +3,7 @@
 <remote name="origin"
           fetch="https://github.com/back-to-basics-os"
           revision="master" />
+
+    <!-- Operating System -->
+    <project name="boot" path="boot" remote="origin"/>    
 </manifest>
