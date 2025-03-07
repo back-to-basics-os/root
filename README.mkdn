@@ -1,0 +1,16 @@
+B2B-OS
+===========
+
+Getting started
+---------------
+
+To get started with B2B-OS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+To initialize your local repository using the B2B-OS trees, use a command like this:
+```
+repo init -u https://github.com/back-to-basics-os/root.git -b master
+```
+Then to sync up:
+```
+repo sync
+```
